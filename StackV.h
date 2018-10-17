@@ -15,9 +15,12 @@ private:
 
 public:
 
+Stack();
+
     // No default c'tor needs to be declared 
     // The vector "knows" how to initialize itself
 
+~Stack();
 
    // No d'tor needs to be declared
    // The vector "knows" how to destroy itself
