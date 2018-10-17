@@ -1,15 +1,34 @@
 #include "StackL.h"
 
-Stack::Stack(){}
 
-Stack::~Stack(){}
 
-int Stack::size()()
+int Stack::size(){
 
-void Stack::push(int){}
+return data.size();
 
-void Stack::pop(){}
+}
 
-int Stack::top(){}
+void Stack::push(int a){
+	
+	
+	data.insert(a,1);
+	
+	}
 
-void Stack::clear(){}
+void Stack::pop(){
+	
+	data.remove(1);
+	
+	}
+
+int Stack::top(){
+	
+	data.get(1);
+	}
+
+void Stack::clear(){
+	
+	
+	data.clear();
+	
+	}

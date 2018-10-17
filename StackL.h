@@ -15,12 +15,12 @@ private:
 
 public:
 
-Stack();
+
 
 // No default c'tor needs to be declared 
 // the List "knows" how to initialize itself
 
-~Stack();
+
 
 // No default d'tor needs to be declared 
 // the List "knows" how to destroy itself

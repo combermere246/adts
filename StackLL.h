@@ -14,7 +14,6 @@ private:
 
 public:
 
-Stack();
 
     // No default c'tor needs to be declared 
     // We initialized the attributes above

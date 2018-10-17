@@ -1,15 +1,28 @@
 #include "StackV.h"
 
-Stack::Stack(){}
 
-Stack::~Stack(){}
+int Stack::size(){
+	
+	return data.size();
+}
 
-int Stack::size()()
+void Stack::push(int a){
+	
+	data.push_back (a);
+	
+	}
 
-void Stack::push(int){}
+void Stack::pop(){
+	
+	data.pop_back();
+	
+	}
 
-void Stack::pop(){}
-
-int Stack::top(){}
+int Stack::top(){
+	
+	
+	return data[data.size()-1];
+	
+	}
 
 void Stack::clear(){}
